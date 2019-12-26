@@ -64,5 +64,9 @@ module Mrkt
     def describe_lead
       get('/rest/v1/leads/describe.json')
     end
+
+    def describe_lead2
+      get('/rest/v1/leads/describe2.json')
+    end
   end
 end
